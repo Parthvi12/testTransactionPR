@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Time Log",
+      "isDefault": false
+    },
+    {
       "id": "1 Track Applications",
       "isDefault": false
     },
@@ -12,13 +16,15 @@
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
-  "color": "#C7F3E3",
-  "icon": "moon",
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "jspdf_https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
-    }
-  ],
+  "color": "#D9E7FF",
+  "icon": "calender",
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "publishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
