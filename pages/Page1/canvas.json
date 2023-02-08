@@ -1957,6 +1957,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Page1_SelectQuery",
               "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
