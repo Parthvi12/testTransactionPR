@@ -1,7 +1,6 @@
 {
   "unpublishedCollection": {
     "name": "Utils",
-    "pageId": "Search",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -18,7 +17,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Search_Utils",
+  "id": "null_Utils",
   "deleted": false,
   "gitSyncId": "63e363c90c7ee4270b3bc8d4_63e379e50c7ee4270b3bc997"
 }

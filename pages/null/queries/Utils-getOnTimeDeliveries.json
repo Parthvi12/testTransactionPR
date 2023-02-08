@@ -13,8 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Search",
-    "collectionId": "Search_Utils",
+    "collectionId": "null_Utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -41,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Search_Utils.getOnTimeDeliveries",
+  "id": "null_Utils.getOnTimeDeliveries",
   "deleted": false,
   "gitSyncId": "63e363c90c7ee4270b3bc8d4_2023-02-08T10:31:01.153711194Z"
 }

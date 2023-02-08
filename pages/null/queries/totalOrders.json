@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "refundedOrders",
+    "name": "totalOrders",
     "datasource": {
       "name": "customer support dashboard",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,11 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Search",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select count(*) from refund_data",
+      "body": "SELECT COUNT ( DISTINCT order_id ) FROM order_table;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,7 +36,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Search_refundedOrders",
+  "id": "null_totalOrders",
   "deleted": false,
-  "gitSyncId": "63e363c90c7ee4270b3bc8d4_2023-02-08T10:31:01.144399630Z"
+  "gitSyncId": "63e363c90c7ee4270b3bc8d4_2023-02-08T10:31:01.158391046Z"
 }

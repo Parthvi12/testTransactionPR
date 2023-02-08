@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "search",
-    "fullyQualifiedName": "Utils.search",
+    "name": "order_id_search",
+    "fullyQualifiedName": "Utils.order_id_search",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Search",
-    "collectionId": "Search_Utils",
+    "collectionId": "null_Utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  if (appsmith?.store?.searchType?.length == 0) {\n    return getAllCustomers.data;\n  } else if (appsmith?.store?.searchType == 'Customers') {\n    return getAllCustomers.data.filter(word => word.cname.toLowerCase().includes(name_search.text.toLowerCase()));\n  }\n}",
+      "body": "() => {\n  if (order_id_search.text.length == 0) {\n    return getAllOrders.data;\n  } else {\n    return getAllOrders.data.filter(word => word.order_id.includes(order_id_search.text));\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  if (appsmith?.store?.searchType?.length == 0) {\n    return getAllCustomers.data;\n  } else if (appsmith?.store?.searchType == 'Customers') {\n    return getAllCustomers.data.filter(word => word.cname.toLowerCase().includes(name_search.text.toLowerCase()));\n  }\n}"
+      "() => {\n  if (order_id_search.text.length == 0) {\n    return getAllOrders.data;\n  } else {\n    return getAllOrders.data.filter(word => word.order_id.includes(order_id_search.text));\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Search_Utils.search",
+  "id": "null_Utils.order_id_search",
   "deleted": false,
-  "gitSyncId": "63e363c90c7ee4270b3bc8d4_2023-02-08T10:31:01.156287878Z"
+  "gitSyncId": "63e363c90c7ee4270b3bc8d4_2023-02-08T10:31:01.152967983Z"
 }

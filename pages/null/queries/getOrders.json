@@ -13,7 +13,6 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Search",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -39,7 +38,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Search_getOrders",
+  "id": "null_getOrders",
   "deleted": false,
   "gitSyncId": "63e363c90c7ee4270b3bc8d4_2023-02-08T10:31:01.147801033Z"
 }

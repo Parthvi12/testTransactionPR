@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "delayedOrders",
-    "fullyQualifiedName": "Utils.delayedOrders",
+    "name": "getRefunds",
+    "fullyQualifiedName": "Utils.getRefunds",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Search",
-    "collectionId": "Search_Utils",
+    "collectionId": "null_Utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  const delay = delayedOrders.data[0].count * 100 / totalOrders.data[0].count;\n  return Math.round(delay);\n}",
+      "body": "() => {\n  const arr = getAllOrders.data.map(x => parseInt(x.refundstatus));\n  return (arr.reduce((a, b) => a + b, 0) / getAllOrders.data.length).toFixed(2);\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  const delay = delayedOrders.data[0].count * 100 / totalOrders.data[0].count;\n  return Math.round(delay);\n}"
+      "() => {\n  const arr = getAllOrders.data.map(x => parseInt(x.refundstatus));\n  return (arr.reduce((a, b) => a + b, 0) / getAllOrders.data.length).toFixed(2);\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Search_Utils.delayedOrders",
+  "id": "null_Utils.getRefunds",
   "deleted": false,
-  "gitSyncId": "63e363c90c7ee4270b3bc8d4_2023-02-08T10:31:01.172246919Z"
+  "gitSyncId": "63e363c90c7ee4270b3bc8d4_2023-02-08T10:31:01.145464424Z"
 }
