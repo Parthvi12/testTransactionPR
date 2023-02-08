@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Search",
-      "isDefault": false
-    },
-    {
       "id": "Dashboard",
       "isDefault": false
     },
