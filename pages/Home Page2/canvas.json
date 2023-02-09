@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 660,
+          "bottomRow": 480,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 76,
           "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -53,7 +53,7 @@
                   "widgetName": "Canvas1Copy1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 380,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -90,6 +90,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "CENTER",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "bk6ybivc64",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -99,7 +100,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.5rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -159,6 +162,7 @@
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 51,
+              "dynamicHeight": "FIXED",
               "widgetId": "9y61vvrbsq",
               "containerStyle": "card",
               "isVisible": true,
@@ -166,7 +170,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.500rem"
+              "borderRadius": "1.500rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -196,7 +202,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 380,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -233,6 +239,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "CENTER",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "ipy96u2fk3",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -242,7 +249,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.5rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
@@ -302,6 +311,7 @@
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 31,
+              "dynamicHeight": "FIXED",
               "widgetId": "e2oamp820f",
               "containerStyle": "card",
               "isVisible": true,
@@ -309,7 +319,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.500rem"
+              "borderRadius": "1.500rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
@@ -339,7 +351,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 80,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -439,6 +451,7 @@
                       "isLoading": false,
                       "borderRadius": "0.900rem",
                       "menuColor": "#2E3D49",
+                      "menuItemsSource": "STATIC",
                       "iconAlign": "right",
                       "placement": "START"
                     },
@@ -507,6 +520,7 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 45,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "mjmhwn9uiq",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -516,7 +530,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "fontSize": "1.7rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.7rem",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "fmvzk8n19t",
@@ -539,6 +555,7 @@
               "backgroundColor": "#D7F7FF",
               "isDeprecated": false,
               "rightColumn": 58,
+              "dynamicHeight": "FIXED",
               "widgetId": "2o83herhns",
               "containerStyle": "card",
               "isVisible": true,
@@ -546,11 +563,14 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.500rem"
+              "borderRadius": "1.500rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Home Page2",
         "deleted": false,
