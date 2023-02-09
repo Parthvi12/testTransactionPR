@@ -2002,7 +2002,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Submit new order2_insert_work_orders",
+              "id": "Page1_SelectQuery",
               "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
