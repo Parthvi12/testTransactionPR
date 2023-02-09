@@ -40,7 +40,7 @@
       "application_table.pageSize",
       "status_dropdown.selectedOptionValue === \"All\" ? \"ilike '%'\": \"= '\" + status_dropdown.selectedOptionValue + \"'\""
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []

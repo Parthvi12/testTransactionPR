@@ -3356,7 +3356,19 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Submit new order2_insert_work_orders",
+              "id": "1 Track Applications_getApplications",
+              "name": "getApplications",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "(application_table.pageNo - 1) * application_table.pageSize",
+                "application_table.pageSize",
+                "status_dropdown.selectedOptionValue === \"All\" ? \"ilike '%'\": \"= '\" + status_dropdown.selectedOptionValue + \"'\""
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "1 Track Applications_setInterviewStatusScheduled",
               "name": "setInterviewStatusScheduled",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3368,24 +3380,12 @@
           ],
           [
             {
-              "id": "Submit new order2_insert_work_orders",
+              "id": "1 Track Applications_fetchFeedback",
               "name": "fetchFeedback",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "application_table.selectedRow.id"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Submit new order2_insert_work_orders",
-              "name": "getApplications",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "(application_table.pageNo - 1) * application_table.pageSize",
-                "application_table.pageSize",
-                "status_dropdown.selectedOptionValue === \"All\" ? \"ilike '%'\": \"= '\" + status_dropdown.selectedOptionValue + \"'\""
               ],
               "timeoutInMillisecond": 10000
             }
