@@ -3356,7 +3356,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "1 Track Applications_setInterviewStatusScheduled",
+              "id": "Submit new order2_insert_work_orders",
               "name": "setInterviewStatusScheduled",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3368,7 +3368,7 @@
           ],
           [
             {
-              "id": "1 Track Applications_fetchFeedback",
+              "id": "Submit new order2_insert_work_orders",
               "name": "fetchFeedback",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3378,7 +3378,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "1 Track Applications_getApplications",
+              "id": "Submit new order2_insert_work_orders",
               "name": "getApplications",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

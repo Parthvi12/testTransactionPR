@@ -2526,7 +2526,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Dashboard_delayedOrders",
+              "id": "Submit new order2_insert_work_orders",
               "name": "delayedOrders",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2534,7 +2534,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_monthlyDeliveryDates",
+              "id": "Submit new order2_insert_work_orders",
               "name": "monthlyDeliveryDates",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2542,7 +2542,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_monthlyExpectedDeliveryDates",
+              "id": "Submit new order2_insert_work_orders",
               "name": "monthlyExpectedDeliveryDates",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2550,7 +2550,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_orderValuePerMonth",
+              "id": "Submit new order2_insert_work_orders",
               "name": "orderValuePerMonth",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2558,7 +2558,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_ordersPerMonth",
+              "id": "Submit new order2_insert_work_orders",
               "name": "ordersPerMonth",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2566,7 +2566,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_paymentMethod",
+              "id": "Submit new order2_insert_work_orders",
               "name": "paymentMethod",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2574,7 +2574,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_popularProducts",
+              "id": "Submit new order2_insert_work_orders",
               "name": "popularProducts",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2582,7 +2582,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_refundMethod",
+              "id": "Submit new order2_insert_work_orders",
               "name": "refundMethod",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2590,7 +2590,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_refundValuePerMonth",
+              "id": "Submit new order2_insert_work_orders",
               "name": "refundValuePerMonth",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2598,7 +2598,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_refundedOrders",
+              "id": "Submit new order2_insert_work_orders",
               "name": "refundedOrders",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2606,7 +2606,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_refundsPerMonth",
+              "id": "Submit new order2_insert_work_orders",
               "name": "refundsPerMonth",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2614,7 +2614,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_totalCustomers",
+              "id": "Submit new order2_insert_work_orders",
               "name": "totalCustomers",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2622,7 +2622,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_totalOrders",
+              "id": "Submit new order2_insert_work_orders",
               "name": "totalOrders",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
