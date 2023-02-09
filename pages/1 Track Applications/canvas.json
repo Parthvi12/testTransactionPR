@@ -3356,6 +3356,19 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Submit new order2_insert_work_orders",
+              "name": "setInterviewStatusScheduled",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                " application_table.selectedRow.id "
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Submit new order2_insert_work_orders",
               "name": "fetchFeedback",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3365,6 +3378,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Submit new order2_insert_work_orders",
               "name": "getApplications",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

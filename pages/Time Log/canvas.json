@@ -3822,7 +3822,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Time Log_JSObject1.tabDefault",
+              "id": "Submit new order2_insert_work_orders",
               "name": "JSObject1.tabDefault",
               "collectionId": "Time Log_JSObject1",
               "confirmBeforeExecute": false,
@@ -3833,7 +3833,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Time Log_getAllTimeLogs",
+              "id": "Submit new order2_insert_work_orders",
               "name": "getAllTimeLogs",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3843,7 +3843,7 @@
           ],
           [
             {
-              "id": "Time Log_getUsers",
+              "id": "Submit new order2_insert_work_orders",
               "name": "getUsers",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3855,7 +3855,7 @@
           ],
           [
             {
-              "id": "Time Log_getTimeLogs",
+              "id": "Submit new order2_insert_work_orders",
               "name": "getTimeLogs",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
