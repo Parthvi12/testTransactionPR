@@ -55,6 +55,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Public.cars",
+      "isDefault": false
     }
   ],
   "viewMode": false,
